@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tnt_update:block/copper_ore_tnt_texture_bottom",
+    "up": "the_tnt_update:block/copper_ore_tnt_texture_top",
+    "north": "the_tnt_update:block/copper_ore_tnt_texture_side",
+    "east": "the_tnt_update:block/copper_ore_tnt_texture_side",
+    "south": "the_tnt_update:block/copper_ore_tnt_texture_side",
+    "west": "the_tnt_update:block/copper_ore_tnt_texture_side",
+    "particle": "the_tnt_update:block/copper_ore_tnt_texture_bottom"
+  },
+  "render_type": "solid"
+}

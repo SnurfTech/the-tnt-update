@@ -1,0 +1,4095 @@
+{
+  "mod_elements": [
+    {
+      "name": "FivexTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivex_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/FivexTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/fivex_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/fivex_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/fivex_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/fivex_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/fivex_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedFivexTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_fivex_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedFivexTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedFivexTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_fivex_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_fivex_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedFivexTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedFivexTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "FivexTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivex_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/FivexTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FivexTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivex_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/FivexTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TenxTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenx_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/tenx_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/tenx_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/tenx_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/TenxTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/tenx_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/tenx_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTenxTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tenx_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedTenxTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_tenx_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedTenxTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTenxTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tenx_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedTenxTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TenxTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenx_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/TenxTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TenxTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenx_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/TenxTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FivexTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivex_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/fivex_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/fivex_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TenxTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenx_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/tenx_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/tenx_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TwoxTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twox_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/TwoxTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/twox_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/twox_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/twox_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/twox_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/twox_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTwoxTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_twox_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_twox_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedTwoxTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedTwoxTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTwoxTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_twox_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedTwoxTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TwoxTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twox_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/TwoxTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TwoxTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twox_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/TwoxTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ImmediateTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immediate_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/block/immediate_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/ImmediateTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/immediate_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/immediate_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/immediate_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/immediate_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "ImmediateTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immediate_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/ImmediateTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ImmediateTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immediate_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/ImmediateTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TenxTNTRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenx_tnt_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/tenx_tnt_recipe_2.json",
+          "src/main/resources/data/the_tnt_update/recipe/tenx_tnt_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "TwoxTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twox_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/twox_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ImmediateTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immediate_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/immediate_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/immediate_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuclearTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/nuclear_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/nuclear_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/nuclear_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/NuclearTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/nuclear_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/nuclear_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNuclearTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nuclear_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedNuclearTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedNuclearTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_nuclear_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNuclearTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nuclear_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedNuclearTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NuclearTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NuclearTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HoleTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hole_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/HoleTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/hole_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/hole_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/hole_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/hole_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/hole_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedHoleTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_hole_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedHoleTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_hole_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedHoleTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedHoleTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_hole_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedHoleTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HoleTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hole_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/HoleTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HoleTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hole_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/HoleTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/nuclear_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/nuclear_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HoleTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hole_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/hole_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/hole_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/diamond_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DiamondOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/diamond_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDiamondOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_diamond_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDiamondOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_diamond_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDiamondOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDiamondOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_diamond_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDiamondOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DiamondOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DiamondOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/diamond_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/diamond_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateDiamondOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateDiamondOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_diamond_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_diamond_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_diamond_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateDiamondOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_diamond_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_diamond_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateDiamondOreTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateDiamondOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateDiamondOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_diamond_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateDiamondOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateDiamondOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateDiamondOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateDiamondOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateDiamondOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateDiamondOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_diamond_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_diamond_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/emerald_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/emerald_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/EmeraldOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/emerald_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/emerald_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/emerald_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedEmeraldOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_emerald_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedEmeraldOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_emerald_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedEmeraldOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedEmeraldOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_emerald_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedEmeraldOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/EmeraldOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/EmeraldOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/emerald_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/emerald_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateEmeraldOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_emerald_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateEmeraldOreTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_emerald_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_emerald_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_emerald_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_emerald_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateEmeraldOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_emerald_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_emerald_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateEmeraldOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateEmeraldOreTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateEmeraldOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_emerald_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateEmeraldOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateEmeraldOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateEmeraldOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateEmeraldOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateEmeraldOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateEmeraldOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_emerald_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_emerald_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/blockstates/redstone_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/redstone_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/RedstoneOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/items/redstone_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/redstone_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/redstone_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedRedstoneOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_redstone_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_redstone_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedRedstoneOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedRedstoneOreTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedRedstoneOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_redstone_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedRedstoneOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/RedstoneOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/RedstoneOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/redstone_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/redstone_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRedstoneOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_redstone_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_redstone_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_redstone_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_redstone_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_redstone_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateRedstoneOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_redstone_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateRedstoneOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_redstone_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_redstone_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateRedstoneOreTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateRedstoneOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateRedstoneOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_redstone_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateRedstoneOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRedstoneOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_redstone_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateRedstoneOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRedstoneOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_redstone_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateRedstoneOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRedstoneOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_redstone_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_redstone_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_redstone_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/gold_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/GoldOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/block/gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/gold_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedGoldOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedGoldOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_gold_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedGoldOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedGoldOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_gold_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedGoldOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/GoldOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/GoldOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/gold_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/gold_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateGoldOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_gold_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_gold_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateGoldOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_gold_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateGoldOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateGoldOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateGoldOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_gold_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateGoldOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_gold_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateGoldOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateGoldOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_gold_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateGoldOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateGoldOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_gold_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateGoldOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateGoldOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_gold_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_gold_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_gold_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherGoldOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/blockstates/nether_gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/nether_gold_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/nether_gold_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/nether_gold_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/NetherGoldOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/block/nether_gold_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherGoldOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_gold_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedNetherGoldOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_nether_gold_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedNetherGoldOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherGoldOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_gold_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedNetherGoldOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherGoldOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherGoldOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherGoldOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherGoldOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherGoldOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/nether_gold_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/nether_gold_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/IronOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/iron_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/iron_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedIronOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_iron_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedIronOreTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedIronOreTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_iron_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedIronOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_iron_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedIronOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IronOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/IronOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IronOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/IronOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IronOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/iron_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/iron_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateIronOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/deepslate_iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_iron_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_iron_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_iron_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateIronOreTNTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateIronOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_iron_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateIronOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateIronOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_iron_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateIronOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_iron_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateIronOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateIronOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateIronOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateIronOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateIronOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateIronOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_iron_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_iron_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/block/CoalOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/coal_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/coal_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedCoalOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_coal_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedCoalOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedCoalOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_coal_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedCoalOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_coal_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedCoalOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/CoalOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/CoalOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/coal_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/coal_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCoalOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_coal_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateCoalOreTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_coal_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_coal_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateCoalOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_coal_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateCoalOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateCoalOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_coal_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateCoalOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_coal_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateCoalOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCoalOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateCoalOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCoalOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateCoalOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCoalOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_coal_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_coal_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/copper_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/CopperOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/copper_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/copper_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/copper_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/copper_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedCopperOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_copper_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_copper_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedCopperOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedCopperOreTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedCopperOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_copper_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedCopperOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/CopperOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/CopperOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/copper_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/copper_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCopperOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_copper_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_copper_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_copper_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateCopperOreTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_copper_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_copper_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateCopperOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_copper_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateCopperOreTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateCopperOreTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_copper_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateCopperOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_copper_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateCopperOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCopperOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateCopperOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCopperOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateCopperOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCopperOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_copper_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_copper_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisLazuliOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/lapis_lazuli_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/lapis_lazuli_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/lapis_lazuli_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/LapisLazuliOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/lapis_lazuli_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/lapis_lazuli_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedLapisLazuliOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_lapis_lazuli_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedLapisLazuliOreTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_lapis_lazuli_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedLapisLazuliOreTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedLapisLazuliOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_lapis_lazuli_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedLapisLazuliOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LapisLazuliOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/LapisLazuliOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LapisLazuliOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/LapisLazuliOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LapisLazuliOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/lapis_lazuli_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/lapis_lazuli_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateLapisLazuliOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lapis_lazuli_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/blockstates/deepslate_lapis_lazuli_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/deepslate_lapis_lazuli_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/DeepslateLapisLazuliOreTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/items/deepslate_lapis_lazuli_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/deepslate_lapis_lazuli_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/deepslate_lapis_lazuli_ore_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateLapisLazuliOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_lapis_lazuli_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedDeepslateLapisLazuliOreTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedDeepslateLapisLazuliOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_deepslate_lapis_lazuli_ore_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedDeepslateLapisLazuliOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_deepslate_lapis_lazuli_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedDeepslateLapisLazuliOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateLapisLazuliOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lapis_lazuli_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateLapisLazuliOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateLapisLazuliOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lapis_lazuli_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/DeepslateLapisLazuliOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateLapisLazuliOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lapis_lazuli_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/deepslate_lapis_lazuli_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/deepslate_lapis_lazuli_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherQuartzOreTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_quartz_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/nether_quartz_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/nether_quartz_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/nether_quartz_ore_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/nether_quartz_ore_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/nether_quartz_ore_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/NetherQuartzOreTNTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherQuartzOreTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_quartz_ore_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedNetherQuartzOreTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_nether_quartz_ore_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedNetherQuartzOreTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherQuartzOreTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_quartz_ore_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedNetherQuartzOreTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherQuartzOreTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_quartz_ore_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherQuartzOreTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherQuartzOreTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_quartz_ore_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherQuartzOreTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherQuartzOreTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_quartz_ore_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/nether_quartz_ore_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/nether_quartz_ore_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientDebrisTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/item/ancient_debris_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/AncientDebrisTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/items/ancient_debris_tnt.json",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/ancient_debris_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/ancient_debris_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/ancient_debris_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedAncientDebrisTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_ancient_debris_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedAncientDebrisTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedAncientDebrisTNTEntity.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_ancient_debris_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedAncientDebrisTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_ancient_debris_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedAncientDebrisTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AncientDebrisTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/AncientDebrisTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AncientDebrisTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/AncientDebrisTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AncientDebrisTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/ancient_debris_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/ancient_debris_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/world_eater_block.json",
+          "src/main/java/com/snurftech/thetntupdate/block/WorldEaterBlockBlock.java",
+          "src/main/resources/assets/the_tnt_update/blockstates/world_eater_block.json",
+          "src/main/resources/assets/the_tnt_update/models/block/world_eater_block.json"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_block_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/WorldEaterBlockOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/world_eater_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/world_eater_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/world_eater_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/world_eater_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/WorldEaterTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/models/item/world_eater_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedWorldEaterTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_world_eater_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/items/primed_world_eater_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedWorldEaterTNTRenderer.java",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedWorldEaterTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedWorldEaterTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_world_eater_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedWorldEaterTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/WorldEaterTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/WorldEaterTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WorldEaterTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_eater_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/world_eater_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/world_eater_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IceTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_tnt_update/models/item/ice_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/IceTNTBlock.java",
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/ice_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/ice_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/ice_tnt.json",
+          "src/main/resources/assets/the_tnt_update/items/ice_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedIceTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_ice_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedIceTNTEntity.java",
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedIceTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_ice_tnt_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedIceTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_ice_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedIceTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IceTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/IceTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IceTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/IceTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IceTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/advancement/recipes/ice_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/recipe/ice_tnt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherTNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/loot_table/blocks/nether_tnt.json",
+          "src/main/resources/assets/the_tnt_update/blockstates/nether_tnt.json",
+          "src/main/java/com/snurftech/thetntupdate/block/NetherTNTBlock.java",
+          "src/main/resources/assets/the_tnt_update/items/nether_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/block/nether_tnt.json",
+          "src/main/resources/assets/the_tnt_update/models/item/nether_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherTNT",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/client/renderer/PrimedNetherTNTRenderer.java",
+          "src/main/resources/assets/the_tnt_update/items/primed_nether_tnt_spawn_egg.json",
+          "src/main/java/com/snurftech/thetntupdate/entity/PrimedNetherTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedNetherTNTOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_nether_tnt_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/PrimedNetherTNTOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherTNTOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tnt_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherTNTOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/thetntupdate/procedures/NetherTNTBlockDestroyedByExplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherTNTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_tnt_update/recipe/nether_tnt_recipe.json",
+          "src/main/resources/data/the_tnt_update/advancement/recipes/nether_tnt_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:WorldEaterBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_tnt_update.fivex_tnt": "5x TNT",
+      "entity.the_tnt_update.primed_fivex_tnt": "Primed 5x TNT",
+      "item.the_tnt_update.tenx_tnt": "10x TNT",
+      "entity.the_tnt_update.primed_tenx_tnt": "Primed 10x TNT",
+      "item.the_explosive_update.fivex_tnt": "5x TNT",
+      "entity.the_explosive_update.primed_fivex_tnt": "Primed Fivex TNT",
+      "item.the_explosive_update.tenx_tnt": "10x TNT",
+      "entity.the_explosive_update.primed_tenx_tnt": "Primed Fivex TNT",
+      "item.the_tnt_update.twox_tnt": "2x TNT",
+      "entity.the_tnt_update.primed_twox_tnt": "Primed 2x TNT",
+      "item.the_tnt_update.immediate_tnt": "Immediate TNT",
+      "item.the_tnt_update.nuclear_tnt": "Nuclear TNT",
+      "entity.the_tnt_update.primed_nuclear_tnt": "Primed Nuclear TNT",
+      "item.the_tnt_update.hole_tnt": "Hole TNT",
+      "entity.the_tnt_update.primed_hole_tnt": "Primed Hole TNT",
+      "item.the_tnt_update.diamond_ore_tnt": "Diamond Ore TNT",
+      "entity.the_tnt_update.primed_diamond_ore_tnt": "Primed Diamond Ore TNT",
+      "item.the_tnt_update.deepslate_diamond_ore_tnt": "Deepslate Diamond Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_diamond_ore_tnt": "Primed Deepslate Diamond Ore TNT",
+      "item.the_tnt_update.emerald_ore_tnt": "Emerald Ore TNT",
+      "entity.the_tnt_update.primed_emerald_ore_tnt": "Primed Emerald Ore TNT",
+      "item.the_tnt_update.deepslate_emerald_ore_tnt": "Deepslate Emerald Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_emerald_ore_tnt": "Primed Deepslate Emerald Ore TNT",
+      "item.the_tnt_update.redstone_ore_tnt": "Redstone Ore TNT",
+      "entity.the_tnt_update.primed_redstone_ore_tnt": "Primed Redstone Ore TNT",
+      "item.the_tnt_update.deepslate_redstone_ore_tnt": "Deepslate Redstone Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_redstone_ore_tnt": "Primed Deepslate Redstone Ore TNT",
+      "item.the_tnt_update.gold_ore_tnt": "Gold Ore TNT",
+      "entity.the_tnt_update.primed_gold_ore_tnt": "Primed Gold Ore TNT",
+      "item.the_tnt_update.deepslate_gold_ore_tnt": "Deepslate Gold Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_gold_ore_tnt": "Primed Deepslate Gold Ore TNT",
+      "item.the_tnt_update.nether_gold_ore_tnt": "Nether Gold Ore TNT",
+      "entity.the_tnt_update.primed_nether_gold_ore_tnt": "Primed Nether Gold Ore TNT",
+      "item.the_tnt_update.iron_ore_tnt": "Iron Ore TNT",
+      "entity.the_tnt_update.primed_iron_ore_tnt": "Primed Iron Ore TNT",
+      "item.the_tnt_update.deepslate_iron_ore_tnt": "Deepslate Iron Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_iron_ore_tnt": "Primed Deepslate Iron Ore TNT",
+      "item.the_tnt_update.coal_ore_tnt": "Coal Ore TNT",
+      "entity.the_tnt_update.primed_coal_ore_tnt": "Primed Coal Ore TNT",
+      "item.the_tnt_update.deepslate_coal_ore_tnt": "Deepslate Coal Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_coal_ore_tnt": "Primed Deepslate Coal Ore TNT",
+      "item.the_tnt_update.copper_ore_tnt": "Copper Ore TNT",
+      "entity.the_tnt_update.primed_copper_ore_tnt": "Primed Copper Ore TNT",
+      "item.the_tnt_update.deepslate_copper_ore_tnt": "Deepslate Copper Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_copper_ore_tnt": "Primed Deepslate Copper Ore TNT",
+      "item.the_tnt_update.lapis_lazuli_ore_tnt": "Lapis Lazuli Ore TNT",
+      "entity.the_tnt_update.primed_lapis_lazuli_ore_tnt": "Primed Lapis Lazuli Ore TNT",
+      "item.the_tnt_update.deepslate_lapis_lazuli_ore_tnt": "Deepslate Lapis Lazuli Ore TNT",
+      "entity.the_tnt_update.primed_deepslate_lapis_lazuli_ore_tnt": "Primed Deepslate Lapis Lazuli Ore TNT",
+      "item.the_tnt_update.nether_quartz_ore_tnt": "Nether Quartz Ore TNT",
+      "entity.the_tnt_update.primed_nether_quartz_ore_tnt": "Primed Nether Quartz Ore TNT",
+      "item.the_tnt_update.ancient_debris_tnt": "Ancient Debris TNT",
+      "entity.the_tnt_update.primed_ancient_debris_tnt": "Primed Ancient Debris Ore TNT",
+      "item.the_tnt_update.world_eater_block": "World Eater Block",
+      "item.the_tnt_update.world_eater_tnt": "World Eater TNT",
+      "entity.the_tnt_update.primed_world_eater_tnt": "Primed World Eater TNT",
+      "item.the_tnt_update.ice_tnt": "Ice TNT",
+      "entity.the_tnt_update.primed_ice_tnt": "Primed Ice TNT",
+      "item.the_tnt_update.nether_tnt": "Nether TNT",
+      "entity.the_tnt_update.primed_nether_tnt": "Primed Nether TNT"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModBlocks.java",
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModItems.java",
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModEntities.java",
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModEntityRenderers.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/snurftech/thetntupdate/TheTntUpdateMod.java",
+      "src/main/java/com/snurftech/thetntupdate/init/TheTntUpdateModModels.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_tnt_update",
+    "modName": "The TNT Update",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.snurftech.thetntupdate"
+  },
+  "mcreatorVersion": 202600114619
+}

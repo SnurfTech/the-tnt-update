@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:deepslate_lapis_ore",
+    "b": "minecraft:tnt"
+  },
+  "result": {
+    "id": "the_tnt_update:deepslate_lapis_lazuli_ore_tnt",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "the_tnt_update:twox_tnt",
+    "the_tnt_update:twox_tnt",
+    "the_tnt_update:twox_tnt",
+    "the_tnt_update:twox_tnt",
+    "the_tnt_update:twox_tnt"
+  ],
+  "result": {
+    "id": "the_tnt_update:tenx_tnt",
+    "count": 1
+  }
+}

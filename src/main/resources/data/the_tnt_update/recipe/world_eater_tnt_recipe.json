@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": "minecraft:nether_star",
+    "b": "minecraft:enchanted_golden_apple",
+    "c": "minecraft:dragon_head",
+    "d": "minecraft:dragon_egg",
+    "e": "minecraft:tnt",
+    "f": "minecraft:heart_of_the_sea",
+    "g": "minecraft:heavy_core",
+    "h": "minecraft:totem_of_undying",
+    "i": "minecraft:elytra"
+  },
+  "result": {
+    "id": "the_tnt_update:world_eater_tnt",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:fire_charge",
+    "b": "minecraft:blaze_powder",
+    "c": "the_tnt_update:tenx_tnt",
+    "d": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "the_tnt_update:nuclear_tnt",
+    "count": 1
+  }
+}

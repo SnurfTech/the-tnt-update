@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:emerald_ore",
+    "b": "minecraft:tnt"
+  },
+  "result": {
+    "id": "the_tnt_update:emerald_ore_tnt",
+    "count": 1
+  }
+}

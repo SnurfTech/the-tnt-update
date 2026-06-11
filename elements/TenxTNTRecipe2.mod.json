@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ImmediateTNT"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TwoxTNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwoxTNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwoxTNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwoxTNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwoxTNT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TenxTNT"
+    },
+    "name": "tenx_tnt_recipe_2",
+    "namespace": "mod"
+  }
+}

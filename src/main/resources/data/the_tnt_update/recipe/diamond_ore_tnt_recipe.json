@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:diamond_ore",
+    "b": "minecraft:tnt"
+  },
+  "result": {
+    "id": "the_tnt_update:diamond_ore_tnt",
+    "count": 1
+  }
+}

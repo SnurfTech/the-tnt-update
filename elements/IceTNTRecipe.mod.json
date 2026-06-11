@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Blocks.ICE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IceTNT"
+    },
+    "name": "ice_tnt_recipe",
+    "namespace": "mod"
+  }
+}
