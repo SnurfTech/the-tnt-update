@@ -41,7 +41,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ImmediateTNT"
+      "value": "CUSTOM:TwoxTNT"
     },
     "name": "twox_tnt_recipe",
     "namespace": "mod"
